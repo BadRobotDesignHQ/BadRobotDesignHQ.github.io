@@ -18,8 +18,12 @@ p {
   font-weight: 300;
 }
 
-.header {
-	border: solid green 1px;
+a {
+	color: #E2AF34
+}
+
+a:hover {
+	color: #E2AF34
 }
 
 .statement {
@@ -36,25 +40,12 @@ p {
 	color: 	#8c4573;
 }
 
-.main-content {
-	border: blue 1px solid;
-}
-
 .hp-steps {
-	border: red solid 1px;
 	padding: 2%;
-}
-
-.3-steps {
-	border: blue solid 1px;
 }
 
 .hp-steps p {
 	font-size: 1.5em;
-}
-
-.steps {
-	border: black solid 1px;
 }
 
 .step-one, .step-two, .step-three, .get-notified {
@@ -72,8 +63,25 @@ p {
 	float: right;
 }
 
+.step-numbers {
+	float: left;
+	background-color: white;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-khtml-border-radius: 50%;	
+	width: 40px;
+	height: 40px; 
+}
+
+.step-numbers h2 {
+	text-align: center;
+	margin: -0.01px;
+	font-size: 3em;
+	
+}
+
 .phone {
-	border: red solid 1px;
 	text-align: right;
 }
 
