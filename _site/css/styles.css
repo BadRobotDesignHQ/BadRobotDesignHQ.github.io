@@ -17,3 +17,53 @@ p {
   font-family: 'Comfortaa', sans-serif;
   font-weight: 300;
 }
+
+.statement, .tagline {
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.4);
+	color: #8c4573;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius: 10px;
+}
+
+.statement {
+	text-align: right;
+	width: 60%;
+	padding: 0.3%;
+	float: right;
+}
+
+.main-content {
+	border: blue 1px solid;
+}
+
+.hp-steps {
+	border: red solid 1px;
+	padding: 2%;
+}
+
+.hp-steps p {
+	font-size: 1.5em;
+}
+
+.step-one, .step-two, .step-three, .get-notified {
+	background-color: #ffffff;
+	background-color: rgba(255,255,255,0.4);
+	color: #8c4573;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	padding: 2%;
+	margin: 2%;
+}
+
+.phone {
+	border: red solid 1px;
+}
+
+.get-notified {
+	border: green solid 1px;	
+}
