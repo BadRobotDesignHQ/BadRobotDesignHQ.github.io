@@ -18,7 +18,7 @@ p {
   font-weight: 300;
 }
 
-.statement, .tagline {
+.statement {
 	background-color: #ffffff;
 	background-color: rgba(255,255,255,0.4);
 	color: #8c4573;
@@ -48,7 +48,7 @@ p {
 	font-size: 1.5em;
 }
 
-.step-one, .step-two, .step-three, .get-notified {
+.step-one, .step-two, .step-three, .get-notified, .tagline {
 	background-color: #ffffff;
 	background-color: rgba(255,255,255,0.4);
 	color: #8c4573;
@@ -62,8 +62,24 @@ p {
 
 .phone {
 	border: red solid 1px;
+	text-align: right;
 }
 
 .get-notified {
 	border: green solid 1px;	
+}
+
+.tagline {
+	border: solid 1px purple;
+}
+
+#footer {
+	background-color: #ffffff;
+	margin-top: 2%;
+}
+
+.footer-sm {
+	border: solid 1px red;
+	text-align: right;
+	padding-right: 5%;
 }
