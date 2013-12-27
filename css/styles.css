@@ -1,0 +1,19 @@
+body {
+  color: #333;
+  background-repeat: no-repeat; 
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-color: #facc54;
+  background-image: url(/images/background-image.jpg);
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Give You Glory', cursive;
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 300;
+}
